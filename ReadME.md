@@ -1,5 +1,3 @@
-# Hackathon IA x RH - Rétention des Talents
-
 ## 1. Objectifs du Projet
 Ce projet propose une solution basée sur l'intelligence artificielle pour aider les départements des Ressources Humaines à comprendre les causes profondes du turnover et à prédire les risques de démission des employés. 
 
@@ -44,6 +42,7 @@ Assurez-vous d'avoir Python installé sur votre environnement. Les bibliothèque
 Le pipeline de données suit cette structure :
 1. Ingestion du fichier CSV.
 2. Module RGPD : Suppression des identifiants directs. Mise à l'écart des données sensibles pour audit ultérieur.
-3. Entraînement : Random Forest Classifier couplé à CodeCarbon pour le suivi CO2.
-4. Explicabilité : Utilisation de SHAP pour déterminer l'importance de chaque variable dans le score de risque.
-5. Interface : Application Gradio pour la visualisation et la recommandation d'actions RH.
+3. Preprocessing : Suppression des valeurs hautement correlées, remplissage des valeurs manquantes, encodage des colonnes texte en valeurs numériques, séparation des données d'entrainement et de test (80/20)
+4. Entraînement : Random Forest Classifier couplé à CodeCarbon pour le suivi CO2.
+5. Explicabilité : Utilisation de SHAP pour déterminer l'importance de chaque variable dans le score de risque.
+6. Interface : Application Gradio pour la visualisation et la recommandation d'actions RH.
