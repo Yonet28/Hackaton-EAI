@@ -46,3 +46,5 @@ Le pipeline de données suit cette structure :
 4. Entraînement : Random Forest Classifier couplé à CodeCarbon pour le suivi CO2.
 5. Explicabilité : Utilisation de SHAP pour déterminer l'importance de chaque variable dans le score de risque.
 6. Interface : Application Gradio pour la visualisation et la recommandation d'actions RH.
+## 6. Lien de La démo
+https://youtu.be/1xq204MA2HQ
