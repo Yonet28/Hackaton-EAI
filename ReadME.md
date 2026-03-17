@@ -1,5 +1,3 @@
-# Hackathon IA x RH - Rétention des Talents
-
 ## 1. Objectifs du Projet
 Ce projet propose une solution basée sur l'intelligence artificielle pour aider les départements des Ressources Humaines à comprendre les causes profondes du turnover et à prédire les risques de démission des employés. 
 
